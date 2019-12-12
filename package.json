@@ -1,0 +1,57 @@
+{
+  "name": "slack_words_finder",
+  "version": "1.0.0",
+  "description": "find the word in slack channel.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "commit": "git cz",
+    "standard": "semistandard --fix",
+    "document": "documentation build -f md ./src/ | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
+    "readme": "npx readme-md-generator",
+    "test": "kocha ./test"
+  },
+  "author": "code4kit",
+  "contributors": [
+    "shion0625",
+    "ray1525",
+    "MisoraKambe",
+    "Lin-Ja",
+    "waricoma"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "add-text-to-markdown": "^2.0.0",
+    "chai": "^4.2.0",
+    "commitizen": "^4.0.3",
+    "cz-emoji": "^1.1.2",
+    "documentation": "^12.1.4",
+    "kocha": "^1.9.1",
+    "mock-http": "^1.0.2",
+    "readme-md-generator": "^1.0.0",
+    "semistandard": "^14.2.0"
+  },
+  "engines": {
+    "yarn": ">=1.19.1",
+    "node": ">=12.11.1"
+  },
+  "homepage": "https://github.com/code4kit/slack_words_finder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4kit/slack_words_finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/code4kit/slack_words_finder/issues"
+  },
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "cron": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "nedb-async": "0.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
