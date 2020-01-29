@@ -87,3 +87,33 @@ describe('add method', () => {
     expect(resultOfAddMethod.channel_id).to.equal(sampleData[0].channel_id);
   });
 });
+
+describe('remove method', () => {
+  it('run remove method when regExp is not setting in documents', async () => {
+    const nedb = require('../../src/lib/model/_nedb')(
+      '',
+      'test'
+    );
+    await nedb.asyncInsert(sampleData);
+    const regExpIndex = 3;
+    const chId = 'C-TEST-A';
+    const resultOfRemoveMethod = await chReg.removeMethod(nedb, regExpIndex, chId);
+    expect(resultOfRemoveMethod.message).to.equal('Cannot find this RegExp');
+    expect(resultOfRemoveMethod.regExp).to.equal(regExpIndex);
+    expect(resultOfRemoveMethod.channel).to.equal(chId);
+  });
+
+  it('run remove method when already set regExp in document', async () => {
+    const nedb = require('../../src/lib/model/_nedb.js')(
+      '',
+      'test'
+    );
+    await nedb.asyncInsert(sampleData);
+    const regExpIndex = 0;
+    const chId = 'C-TEST-A';
+    const resultOfRemoveMethod = await chReg.removeMethod(nedb, regExpIndex, chId);
+    expect(resultOfRemoveMethod.message).to.equal('The remove method is completed');
+    expect(resultOfRemoveMethod.regExp).to.equal(`受け取った${regExpIndex}`);
+    expect(resultOfRemoveMethod.channel).to.equal(chId);
+  });
+});

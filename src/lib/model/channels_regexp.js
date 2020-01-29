@@ -78,7 +78,6 @@ const removeMethod = async (nedb, regExpIndex, chID) => {
   console.log('regExp do not in searchDoc.reg_exps in DB');
 
   searchDoc.reg_exps.splice(regExpIndex, 1);
-
   await nedb.asyncUpdate(
     {
       channel_id: chID
@@ -91,7 +90,8 @@ const removeMethod = async (nedb, regExpIndex, chID) => {
   );
   const docAll = await findMethod(nedb);
   console.log(docAll);
-  return { message: 'The remove method is completed', reg_exp: `受け取った${regExpIndex}`, channel: `${chID}` };
+  console.log()
+  return { message: 'The remove method is completed', regExp: `受け取った${regExpIndex}`, channel: `${chID}` };
 };
 
 module.exports = {
