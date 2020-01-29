@@ -21,15 +21,15 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "add-text-to-markdown": "^2.0.0",
-    "chai": "^4.2.0",
-    "commitizen": "^4.0.3",
-    "cz-emoji": "^1.1.2",
-    "documentation": "^12.1.4",
-    "kocha": "^1.9.1",
-    "mock-http": "^1.0.2",
-    "readme-md-generator": "^1.0.0",
-    "semistandard": "^14.2.0"
+    "add-text-to-markdown": "2.0.0",
+    "chai": "4.2.0",
+    "commitizen": "4.0.3",
+    "cz-emoji": "1.1.2",
+    "documentation": "12.1.4",
+    "kocha": "1.9.1",
+    "mock-http": "1.0.2",
+    "readme-md-generator": "1.0.0",
+    "semistandard": "14.2.0"
   },
   "engines": {
     "yarn": ">=1.19.1",
