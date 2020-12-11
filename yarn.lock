@@ -1068,13 +1068,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/nedb@^1.8.7":
-  version "1.8.9"
-  resolved "https://registry.yarnpkg.com/@types/nedb/-/nedb-1.8.9.tgz#3cb80a94dfe41bea1dc33c4ea39cd4e7f754abc4"
-  integrity sha512-w9Tl3DQCkdT0Ghes+PKhe+3/pZppBXuFFpSCjPJbb2KE3DjYmUpEyCYzjrAYlT9Y1TndnbbnChzkax2h/JorVQ==
-  dependencies:
-    "@types/node" "*"
-
 "@types/node@*", "@types/node@>=8.9.0", "@types/node@^12.0.2":
   version "12.12.15"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.15.tgz#8dfb6ce22fedd469128137640a3aa8f17415422f"
@@ -4238,12 +4231,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-nedb-async@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/nedb-async/-/nedb-async-0.0.9.tgz#d3f6f6e4e0f9c3f7b8a79b11117ea2b0c1836e67"
-  integrity sha512-fLZYn1DSatyOWCAypOnizEizcYbKsg/G0co29pobxyhvLLjLkqmQoEEn7OV/OZHtqVGeV7cnwIy9OCmw6ccbvg==
+nedb-async@0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/nedb-async/-/nedb-async-0.1.6.tgz#0a2b7937f346fa586dca4b99b8c74196b073a4f4"
+  integrity sha512-q01WccZA4R/bkxWueY4fxafMe68Z1FJpYQBreXBuVd09q6N5hZXqDD0sUDvEaxZQy+xG7f3tQsgtwLPTl0xk2g==
   dependencies:
-    "@types/nedb" "^1.8.7"
     nedb "^1.8.0"
 
 nedb@^1.8.0:
