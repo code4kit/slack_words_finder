@@ -4152,10 +4152,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mock-http@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mock-http/-/mock-http-1.0.2.tgz#abbfac184004983f7e771764e70a5882ee6c407f"
-  integrity sha512-pxCCxgLJJNWJBeH023hOSw5tkVluOhks4wIn1tS5qwRgpLuR0U2mk4ohZN+dMiZ8eKLIi7BqDXopvnx6wPlshw==
+mock-http@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mock-http/-/mock-http-1.1.0.tgz#b89380a718a103fc5801095804bedd0b20f7638c"
+  integrity sha512-H2HMGaHNQPWY8PdeEw4RFux2WEOHD6eJAtN3+iFELik5kGjPKAcoyPWcsC2vgDiTa2yimAEDssmMed51e+cBKQ==
   dependencies:
     mergee "^1.0.0"
 
