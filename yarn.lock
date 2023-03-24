@@ -1899,9 +1899,7 @@ cosmiconfig@^5.2.0:
     parse-json "^4.0.0"
 
 cron@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/cron/-/cron-1.7.2.tgz#2ea1f35c138a07edac2ac5af5084ed6fee5723db"
-  integrity sha512-+SaJ2OfeRvfQqwXQ2kgr0Y5pzBR/lijf5OpnnaruwWnmI799JfWr2jN2ItOV9s3A/+TFOt6mxvKzQq5F0Jp6VQ==
+  version "1.8.2"
   dependencies:
     moment-timezone "^0.5.x"
 
