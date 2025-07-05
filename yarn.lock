@@ -4047,10 +4047,10 @@ merge@^1.2.1:
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
   integrity sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==
 
-mergee@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/mergee/-/mergee-1.0.0.tgz#027c5addc650f6ecbe4bf56100bd00dae763fda7"
-  integrity sha512-hbbXD4LOcxVkpS+mp3BMEhkSDf+lTVENFeEeqACgjjL8WrgKuW2EyLT0fOHyTbyDiuRLZJZ1HrHNeiX4iOd79Q==
+mergee@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mergee/-/mergee-1.0.1.tgz#f28797491f5f815f7234bc338f767d3cace82382"
+  integrity sha512-pItsgflAi3HF3Ly6eWpJ6gc6GJehxFLcHdfCGdRR8BoFz3NcliomGiTU0dm4pzli0rCC1N+00DfPBhjqilYeSg==
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.5:
   version "3.1.10"
@@ -4153,11 +4153,11 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     minimist "0.0.8"
 
 mock-http@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mock-http/-/mock-http-1.0.2.tgz#abbfac184004983f7e771764e70a5882ee6c407f"
-  integrity sha512-pxCCxgLJJNWJBeH023hOSw5tkVluOhks4wIn1tS5qwRgpLuR0U2mk4ohZN+dMiZ8eKLIi7BqDXopvnx6wPlshw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/mock-http/-/mock-http-1.1.1.tgz#66741fb3865f38e25d3d9e2fcb5fbe2519b40d07"
+  integrity sha512-97fZUUUd+/cUhLv1nNoMpB2vjNS1rNqfuXqxcWXZNiDjEQbwbiZfxnkvg1YpUDJS6LP99Ic5OVVszu+bQDQcDg==
   dependencies:
-    mergee "^1.0.0"
+    mergee "^1.0.1"
 
 module-deps-sortable@5.0.0:
   version "5.0.0"
